@@ -1,0 +1,64 @@
+/* General Project */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 350;
+    scroll-behavior: smooth;
+    background-color: #CDF1E3;
+}
+
+.wrapper {
+    display:grid;
+    grid-template-columns: 20vw 75vw;
+}
+
+.main > div {
+    padding-bottom: 1em;
+}
+
+.sidenav {
+    position:fixed;
+    width:20vw;
+    /* scroll-behavior: smooth; */
+}
+
+.main {
+    grid-column-start: 2;
+    scroll-behavior: smooth;
+}
+
+.section {
+    scroll-behavior: smooth;
+}
+
+.wrapper-reversed {
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 1em;
+}
+
+.header {
+    text-align: center;
+}
+
+.img {
+    align-self: center;
+    align-items: center;
+    height: 275px;
+    vertical-align:middle;
+    box-shadow: 0 0 8px 8px white inset;
+}
+
+/* For Previous Experience */
+.wrapper-job-date {
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.professional-history > div {
+    background:#D7f4e9;
+    padding:1em;
+}
+
+.professional-history > div:nth-child(odd) {
+    background: #c1eddc;
+}

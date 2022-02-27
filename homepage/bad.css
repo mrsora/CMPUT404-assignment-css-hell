@@ -1,0 +1,31 @@
+body {
+    background-image: url('./galaxy.jpg');
+    background-size:500px;
+    background-image:repeat;
+    color:purple;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.wrapper {
+    display:grid;
+    grid-template-columns: 20vw 75vw;
+}
+
+.sidenav {
+    position:fixed;
+    width:20vw;
+    /* scroll-behavior: smooth; */
+}
+
+.main {
+    grid-column-start: 2;
+    scroll-behavior: smooth;
+}
+
+.about-me {
+    background-image: url('./IMG_20200915_160129.jpg');
+    background-size: contain;
+    background-repeat: repeat-x;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
